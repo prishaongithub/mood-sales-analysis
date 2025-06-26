@@ -48,7 +48,10 @@ if uploaded_file:
             plt.xticks(rotation=45)
             st.pyplot(fig)
 
-    st.markdown("---")
+# --- Divider between dataset and predictors ---
+st.markdown("---")
+st.header("🔮 Predict Customer Behavior")
+
 
 # --- Predictor 1: Spend Amount ---
 with st.expander("💸 Predict Spend Amount", expanded=False):
