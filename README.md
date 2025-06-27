@@ -86,3 +86,77 @@ To enhance birthday prediction accuracy, custom boosts were applied:
    ```bash
    git clone https://github.com/prishaongithub/mood-sales-analysis.git
    cd mood-sales-analysis
+Absolutely! Here's the **formatted continuation** of your `README.md` — specifically for the **"How to Run"** and **"Acknowledgments"** sections — perfectly matching the style you've already used above:
+
+---
+
+## ⚙️ How to Run
+
+### 1. 📁 Clone the Repository
+
+```bash
+git clone https://github.com/prishaongithub/mood-sales-analysis.git
+cd mood-sales-analysis
+```
+
+### 2. 🛠️ Install Dependencies
+
+Make sure Python (3.8+) is installed. Then install required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+> 💡 *Optional: Use a virtual environment for isolation*
+>
+> ```bash
+> python -m venv venv
+> source venv/bin/activate       # On Windows: venv\Scripts\activate
+> pip install -r requirements.txt
+> ```
+
+### 3. 🚀 Launch the App
+
+Run the Streamlit dashboard locally:
+
+```bash
+streamlit run app.py
+```
+
+> 🌐 The app will open automatically in your browser at:
+> `http://localhost:8501`
+
+---
+
+## 📁 Folder Structure
+
+```bash
+mood-sales-analysis/
+│
+├── app.py                        # 🚀 Streamlit application logic
+├── spend_amount_model.pkl        # 💸 Regression model for spending prediction
+├── category_model.pkl            # 📦 Classification model for category prediction
+├── birthday_model.pkl            # 🎂 Logistic model for birthday-based prediction
+├── label_encoder_category.pkl    # 🏷️ Label encoder for decoding category outputs
+├── credit_card_transaction.csv   # 📊 Core dataset (processed)
+├── requirements.txt              # 📦 All required Python packages
+├── README.md                     # 📘 Project documentation (this file)
+└── notebooks/
+    └── analysis_notebook.ipynb   # 🧠 Full data cleaning, EDA, modeling steps
+```
+
+---
+
+## 🙌 Acknowledgments
+
+Built with ❤️ by **Prisha Arora**
+
+**Powered by:**
+
+* 🧪 **Streamlit** — for building the interactive web dashboard
+* 📊 **Scikit-Learn** & **XGBoost** — for machine learning modeling
+* ☁️ **Visual Crossing Weather API** + mood logic — for realistic simulation
+* 🧠 Domain-based logic — for boosting birthday purchase probabilities
+* 📚 Created as a smart solution for analyzing mood, weather, and spending behaviors
+
+> *This project was developed for educational and analytical exploration of how mood, weather, season, and birthdays influence consumer behavior.*
