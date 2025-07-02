@@ -90,7 +90,14 @@ Absolutely! Here's the **formatted continuation** of your `README.md` — specif
 
 ---
 
-## ⚙️ How to Run
+### ⚙️ How to Run
+
+### Go to this Link:
+
+```link
+https://mood-sales-analysis-xtgqusjp2ju8uihpp5dg6q.streamlit.app/
+```
+### OR
 
 ### 1. 📁 Clone the Repository
 
@@ -141,8 +148,7 @@ mood-sales-analysis/
 ├── credit_card_transaction.csv   # 📊 Core dataset (processed)
 ├── requirements.txt              # 📦 All required Python packages
 ├── README.md                     # 📘 Project documentation (this file)
-└── notebooks/
-    └── analysis_notebook.ipynb   # 🧠 Full data cleaning, EDA, modeling steps
+└── FirstDAproject.ipynb          # 🧠 Full data cleaning, EDA, modeling steps
 ```
 
 ---
