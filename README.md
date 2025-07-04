@@ -80,16 +80,6 @@ To enhance birthday prediction accuracy, custom boosts were applied:
 
 ---
 
-## ⚙️ How to Run
-
-1. **Clone this repo**  
-   ```bash
-   git clone https://github.com/prishaongithub/mood-sales-analysis.git
-   cd mood-sales-analysis
-Absolutely! Here's the **formatted continuation** of your `README.md` — specifically for the **"How to Run"** and **"Acknowledgments"** sections — perfectly matching the style you've already used above:
-
----
-
 ### ⚙️ How to Run
 
 ### Go to this Link:
